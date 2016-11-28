@@ -10,9 +10,9 @@ import (
 func main() {
 
 	// set the template engine
-	iris.UseTemplate(html.New(html.Config{Layout: "layout.html"})).Directory("./templates", ".html")
+	iris.UseTemplate(html.New(html.Config{Layout: "layout.html"})).Directory("src/myProject/templates", ".html")
 	// set static folder(s)
-	iris.Static("/public", "./static", 1)
+	iris.Static("/public", "src/myProject/static", 1)
 
 	// set the custom errors
 	iris.OnError(iris.StatusNotFound, func(ctx *iris.Context) {
