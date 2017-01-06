@@ -12,7 +12,7 @@ func main() {
 	// set the template engine
 	iris.UseTemplate(html.New(html.Config{Layout: "layout.html"})).Directory("./templates", ".html")
 	// set static folder(s)
-	iris.Static("/public", "./static", 1)
+	iris.StaticWeb("/public", "./static", 1)
 
 	// set the custom errors
 	iris.OnError(iris.StatusNotFound, func(ctx *iris.Context) {
