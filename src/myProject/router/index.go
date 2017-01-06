@@ -11,6 +11,7 @@ import (
 type index struct {
 	Title   string
 	Message string
+	Body 	string
 }
 
 // Index index is the page for GET: / route
@@ -18,6 +19,7 @@ func Index() *index {
 	return &index{
 		Title:   "iris sample - index",
 		Message: "This is just a sample index, it's empty because Iris doesnt wants influences!",
+		Body: "name",
 	}
 }
 
