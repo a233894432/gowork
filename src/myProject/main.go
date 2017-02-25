@@ -1,7 +1,8 @@
 package main
 
 import (
-	"./router"
+	"myProject/router"
+
 	"github.com/iris-contrib/middleware/logger"
 	"github.com/kataras/go-template/html"
 	"github.com/kataras/iris"
