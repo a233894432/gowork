@@ -41,7 +41,7 @@ const (
           | |  ____ _  ___
           | | | __|| |/ __|
          _| |_| |  | |\__ \
-        |_____|_|  |_||___/ ` + codeName
+        |_____|_|  |_||___/ ` + Version
 )
 
 // Default is the field which keeps an empty `Framework`

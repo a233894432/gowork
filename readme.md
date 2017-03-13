@@ -8,11 +8,8 @@
           | |  ____ _  ___
           | | | __|| |/ __|
          _| |_| |  | |\__ \
-        |_____|_|  |_||___/ 6.0.3 
+        |_____|_|  |_||___/  6.2.0
 
 # install 组件
-gopm get -u github.com/kataras/iris
-go get -u github.com/iris-contrib/middleware
-go get -u github.com/iris-contrib/logger
-go get -u github.com/iris-contrib/graceful
+gopm get -u gopkg.in/kataras/iris.v6
 
