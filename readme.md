@@ -15,3 +15,9 @@ go get -u github.com/kataras/iris
 go get -u github.com/iris-contrib/middleware
 go get -u github.com/iris-contrib/logger
 go get -u github.com/iris-contrib/graceful
+
+
+
+
+# new iris plugin 
+go get -u gopkg.in/kataras/iris.v6
