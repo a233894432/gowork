@@ -36,7 +36,7 @@ func main() {
 		func(ctx *iris.Context) {
 			// or use ctx.SetMaxRequestBodySize(10 << 20)
 			//to limit the uploaded file(s) size.
-
+			fmt.Println(ctx)
 			// Get the file from the request
 			file, info, err := ctx.FormFile("uploadfile")
 
