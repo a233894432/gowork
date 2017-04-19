@@ -6,9 +6,9 @@ import (
 )
 
 type Company struct {
-	Name  string
-	City  string
-	Other string
+	Name  string   `json:"name"`
+	City  string   `json:"city"`
+	Other []string `json:"other"`
 }
 
 func MyHandler(ctx *iris.Context) {
@@ -18,7 +18,8 @@ func MyHandler(ctx *iris.Context) {
 		return
 	}
 
-	ctx.Writef("Company: %#v\n", c)
+	// ctx.Writef("Company: %#v\n", c)
+	ctx.JSON(iris.StatusOK, c)
 }
 
 func main() {

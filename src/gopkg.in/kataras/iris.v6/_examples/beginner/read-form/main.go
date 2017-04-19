@@ -36,6 +36,7 @@ func main() {
 		}
 
 		ctx.Writef("Visitor: %#v", visitor)
+		// ctx.JSON(iris.StatusOK, visitor)
 	})
 
 	app.Listen(":8080")

@@ -1,0 +1,37 @@
+2017/04/19 11:02:04 | Running at 0.0.0.0:8080
+
+         _____      _
+        |_   _|    (_)
+          | |  ____ _  ___
+          | | | __|| |/ __|
+         _| |_| |  | |\__ \
+        |_____|_|  |_||___/ √Νεxτ
+
+2017/04/19 11:02:28 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:02:29 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:02:29 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:02:29 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:02:29 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:02:30 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:02:30 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:02:30 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:02:30 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:02 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:02 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:02 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:02 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:02 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:03 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:03 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:03 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:03 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:11 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:11 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:12 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:12 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:12 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:12 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:12 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:13 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:13 You have requested: http://localhost/8080/ Method:GET
+2017/04/19 11:03:27 HTTP Server closed manually
