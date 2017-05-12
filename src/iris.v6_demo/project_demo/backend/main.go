@@ -10,7 +10,7 @@ func main() {
 	app.Adapt(httprouter.New())
 	// first parameter is the request path
 	// second is the operating system directory
-	app.StaticWeb("/", "../front")
+	app.StaticWeb("/", "../frontend")
 
 	app.Listen(":8080")
 }
