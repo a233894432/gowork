@@ -1,6 +1,10 @@
 package main
 
 import (
+	"fmt"
+
+	con "./config"
+
 	"gopkg.in/kataras/iris.v6"
 	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
 )
@@ -12,5 +16,6 @@ func main() {
 	// second is the operating system directory
 	app.StaticWeb("/", "../frontend")
 
+	fmt.Println(con.Pv)
 	app.Listen(":8080")
 }
