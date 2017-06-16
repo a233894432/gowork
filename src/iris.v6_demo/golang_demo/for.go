@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	/* 定义局部变量 */
-	var a int = 10
+	var a = 10
 
 	/* 循环 */
 	for a < 20 {
