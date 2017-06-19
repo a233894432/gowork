@@ -21,3 +21,15 @@ go get -u github.com/iris-contrib/graceful
 
 # new iris plugin 
 go get -u gopkg.in/kataras/iris.v6
+
+
+
+
+
+
+
+
+
+
+### test
+go get github.com/hanguofeng/gocaptcha
