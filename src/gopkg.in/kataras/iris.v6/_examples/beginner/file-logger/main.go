@@ -30,7 +30,7 @@ func myFileLogger() iris.LoggerPolicy {
 	return func(mode iris.LogMode, message string) {
 		// optionally, check for production or development log message mode
 		// two modes: iris.ProdMode and iris.DevMode
-		if mode == iris.DevMode {
+		if mode == iris.ProdMode {
 			// log only production-mode log messages
 			myLogger.Println(message)
 		}
@@ -52,7 +52,7 @@ func main() {
 
 	app.Get("/", func(ctx *iris.Context) {
 		// for the sake of simplicity, in order see the logs at the ./logs.txt:
-		app.Log(iris.DevMode, "You have requested: http://localhost/8080"+ctx.Path()+" Method:"+ctx.Method())
+		app.Log(iris.ProdMode, "You have requested: http://localhost/8080"+ctx.Path())
 
 		ctx.Writef("hello")
 	})
