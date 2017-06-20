@@ -13,25 +13,6 @@
 # install 组件
  
 gopm get -u gopkg.in/kataras/iris.v6
-
-<<<<<<< HEAD
-
-
-
-# new iris plugin 
-go get -u gopkg.in/kataras/iris.v6
-
-
-
-
-
-
-
-
-
-
-### test
-go get github.com/hanguofeng/gocaptcha
-=======
  
->>>>>>> 33e422bdc1679bc1771146642d2a37b24ea0093c
+
+ 
