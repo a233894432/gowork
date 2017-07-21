@@ -1,0 +1,22 @@
+hash: 8008c8b63bee17d14e3a84eb5d6b2856eb36a83e898d1fb22e458de49208d072
+updated: 2017-07-21T17:13:50.6081646+08:00
+imports:
+- name: github.com/asdine/storm
+  version: 84522964db3b14b386db48c7ae91c549b33a4171
+- name: github.com/boltdb/bolt
+  version: 2f1ce7a837dcb8da3ec595b1dac9d0632f0f99e8
+- name: github.com/nu7hatch/gouuid
+  version: 179d4d0c4d8d407a32af483c2354df1d2c91e6c3
+- name: github.com/tidwall/buntdb
+  version: 83418750ee775aa24194606fffe7fec391975a65
+- name: goji.io
+  version: 0d89ff54b2c18c9c4ba530e32496aef902d3c6cd
+  subpackages:
+  - internal
+  - pat
+  - pattern
+- name: golang.org/x/sys
+  version: 90796e5a05ce440b41c768bd9af257005e470461
+  subpackages:
+  - unix
+testImports: []
